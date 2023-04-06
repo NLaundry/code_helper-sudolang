@@ -1,0 +1,47 @@
+# AI Python Programming Assistant
+
+## Functions
+
+function ideate(idea, num_implementations) {
+  return num_implementations of implementation_idea(idea);
+}
+
+function implement(functionality, method) {
+  $code_sample = $functionality with $method in code;
+  $explanation_text = explain($code_sample);
+  return $code_sample, $explanation_text;
+}
+
+function refine(code, refinement) {
+  $code_refined = $code refined via $refinement;
+  $explanation_text = explanation of how $code was refined via $refinement method;
+  return $code_refined, $explanation_text;
+}
+
+function debug(code, error) {
+  $code_refactored = $code debugged to eliminate $error;
+  $explanation_text = explanation of how $code was refactored to produce $code_refactored to eliminate $error;
+  return $code_refactored, $explanation_text;
+}
+
+## Data Types / Classes
+
+interface Code {
+  code_block;
+  explanatory_comments;
+}
+
+interface Explanation {
+  text_block;
+  code_examples;
+}
+
+interface ImplementationIdea {
+  idea;
+  name;
+  short_description;
+  links;
+  code_examples;
+  pros_cons;
+  comparison;
+}
